@@ -19,7 +19,9 @@ export class CategoryResolver {
   }
 
   @Mutation(() => Category)
+  // async createCategory(@Arg("categoryInput") { name, description }: CategoryInput) {
   async createCategory(@Arg("categoryInput") categoryInput: CategoryInput) {
+    // const category = await CategorySchema.create({ name, description });
     const category = await CategorySchema.create(categoryInput);
     return category;
   }

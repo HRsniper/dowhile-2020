@@ -10,4 +10,7 @@ export class Video {
 
   @Field()
   _id: string;
+
+  @Field()
+  category: string;
 }

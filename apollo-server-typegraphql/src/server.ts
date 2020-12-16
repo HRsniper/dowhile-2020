@@ -2,6 +2,8 @@ import "reflect-metadata";
 import { buildSchema } from "type-graphql";
 import { ApolloServer } from "apollo-server";
 
+//www.apollographql.com/docs/apollo-server/integrations/middleware/
+
 import "../src/utils/connection";
 import { CategoryResolver } from "./graphql/category/CategoryResolver";
 import { VideoResolver } from "./graphql/video/VideoResolver";
@@ -15,3 +17,5 @@ async function bootstrap() {
 }
 
 bootstrap();
+
+// http://localhost:3333//graphql
