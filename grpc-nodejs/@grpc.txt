@@ -1,0 +1,5 @@
+https://www.npmjs.com/package/grpc In April 2021 it will be deprecated
+  and will no longer receive any updates.
+  We recommend using
+  https://www.npmjs.com/package/@grpc/grpc-js
+  instead.
